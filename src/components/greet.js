@@ -1,7 +1,9 @@
 import { React } from "react";
 
-function Greet (){
-    return <h1>Hello Vishalh</h1>
-}
+// function Greet (){
+//     return <h1>Hello Vishal</h1>
+// }
 
-export default Greet
+export const Greet = () => <h1>Hello Vishal</h1>
+
+// export default Greet
