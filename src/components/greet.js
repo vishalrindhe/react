@@ -4,10 +4,10 @@ import { React } from "react";
 //     return <h1>Hello Vishal</h1>
 // }
 
-const Greet = (props) => {
+const Greet = ({name,hName}) => {
     return(
-    <div><h1>Hello {props.name}</h1>
-            {props.children}
+    <div><h1>Hello {name}  {hName}</h1>
+            {/* {props.children} */}
     </div>
     )
 }

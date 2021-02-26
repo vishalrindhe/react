@@ -19,12 +19,13 @@ function App() {
           <p>This is paragraph</p>
           </Greet>
         <Greet name="b" />
-        <Greet name="c" />
         */}
+        <Greet name="c" hName ="C" />
+        
         {/* <Welcome name="a"/>  */}
         {/* <Hello /> */}
         {/* <Message /> */}
-        <Counter />
+        {/* <Counter /> */}
 
 
       </header>
