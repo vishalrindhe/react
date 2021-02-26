@@ -8,13 +8,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <p>
             Vishal
-        </p>
-        {/* <Greet /> */}
-        {/* <Welcome /> */}
-        <Hello />
+        </p> */}
+        <Greet name="a" >
+          <p>This is paragraph</p>
+          </Greet>
+        <Greet name="b" />
+        <Greet name="c" />
+        <Welcome name="a"/>
+        {/* <Hello /> */}
 
       </header>
     </div>
