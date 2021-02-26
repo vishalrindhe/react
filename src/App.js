@@ -22,7 +22,7 @@ function App() {
         */}
         <Greet name="c" hName ="C" />
         
-        {/* <Welcome name="a"/>  */}
+        <Welcome name="a" hName ="C"/> 
         {/* <Hello /> */}
         {/* <Message /> */}
         {/* <Counter /> */}
