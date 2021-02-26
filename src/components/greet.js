@@ -4,6 +4,6 @@ import { React } from "react";
 //     return <h1>Hello Vishal</h1>
 // }
 
-export const Greet = () => <h1>Hello Vishal</h1>
+const Greet = () => <h1>Hello Vishal</h1>
 
-// export default Greet
+export default Greet
