@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/greet'
 import Welcome from "./components/welcome";
+import Hello from "./components/hello";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
         <p>
             Vishal
         </p>
-        <Greet />
-        <Welcome />
-       
+        {/* <Greet /> */}
+        {/* <Welcome /> */}
+        <Hello />
+
       </header>
     </div>
   );
