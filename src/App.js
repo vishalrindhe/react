@@ -7,6 +7,7 @@ import Message from "./components/message";
 import Counter from "./components/counter";
 import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
+import EventBind from './components/eventBind';
 
 
 
@@ -30,7 +31,8 @@ function App() {
         {/* <Message /> */}
         {/* <Counter /> */}
         {/* <FunctionClick></FunctionClick> */}
-        <ClassClick></ClassClick>
+        {/* <ClassClick></ClassClick> */}
+        <EventBind></EventBind>
         
       </header>
     </div>
