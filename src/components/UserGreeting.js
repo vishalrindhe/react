@@ -13,14 +13,16 @@ export class UserGreeting extends Component {
 
     render() {
     
-        let message
-        if (this.state.isLoggendIn) {
-            message = <div>welcome Vishal</div>
-        } else {
-            message = <div>welcome Guest</div>
-        }
+        // let message
+        // if (this.state.isLoggendIn) {
+        //     message = <div>welcome Vishal</div>
+        // } else {
+        //     message = <div>welcome Guest</div>
+        // }
 
-        return <div>{message    }</div>
+        // return <div>{message    }</div>
+
+        return( this.state.isLoggendIn ? <div>vishal</div> : <div>abc</div>)    
 
     }
 }
