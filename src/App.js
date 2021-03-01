@@ -11,6 +11,8 @@ import EventBind from './components/eventBind';
 import ParentComponent from './components/parentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+
 
 
 
@@ -38,7 +40,8 @@ function App() {
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent></ParentComponent> */}
         {/* <UserGreeting /> */}
-        <NameList />
+        {/* <NameList /> */}
+        <Stylesheet primary={true} />
       </header>
     </div>
   );
