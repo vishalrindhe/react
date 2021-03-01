@@ -6,7 +6,7 @@ export class UserGreeting extends Component {
         super(props)
     
         this.state = {
-            isLoggendIn : true
+            isLoggendIn : false
         }
     }
     
@@ -22,7 +22,9 @@ export class UserGreeting extends Component {
 
         // return <div>{message    }</div>
 
-        return( this.state.isLoggendIn ? <div>vishal</div> : <div>abc</div>)    
+        // return( this.state.isLoggendIn ? <div>vishal</div> : <div>abc</div>)  
+        
+        return this.state.isLoggendIn && <div>Welcome vishal</div>
 
     }
 }
